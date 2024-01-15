@@ -6,14 +6,6 @@ This repository contains an implementation of a Double Deep Q-Network (DDQN) for
 
 The core of this project is the application of the DDQN algorithm, an extension of the standard DQN, which helps to mitigate the overestimation of Q-values. The network architecture is based on the convolutional layers that process raw pixel data from the game frames.
 
-### Technologies & Frameworks
-
-- **Python 3.6+**: The primary programming language used.
-- **PyTorch**: An open source machine learning library used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab.
-- **OpenAI Gym**: A toolkit for developing and comparing reinforcement learning algorithms.
-- **NumPy**: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-- **Matplotlib** (Optional): A plotting library for the Python programming language and its numerical mathematics extension NumPy.
-
 ### Model Architecture
 
 The DDQN model consists of the following layers:
